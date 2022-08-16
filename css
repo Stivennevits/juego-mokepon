@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body{
+    font-family: 'Silkscreen', cursive;
+    background-color: #112B3C;
+}
+
+#seleccionar-mascota {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+ }
+ 
+
+.titulo {
+    color: #EEEEEE;
+    font-size: 32px;
+    
+}
+
+.subtitulo{
+
+    font-size: 20px;
+    color: #FCD900;
+    
+}
+
+.tarjetas{
+    display: flex;
+    gap: 10px  ;
+}
+
+.tarjeta-de-mokepon{
+    width: 258px;
+    height: 180px;
+    background-color: aqua;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 5px #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta-de-mokepon img{
+width: 130px;
+}
+
+#boton-mascota{
+    width: 500px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: aliceblue;
+    font-family: 'Silkscreen', cursive;
+    margin: 20px;
+}
+
+
+input{
+    display: none;
+}
+
+#seleccionar-ataque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-de-ataque{
+    
+    background-color: aqua;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-color: white;
+    width: 150px;
+    color: black;
+    font-family: 'Silkscreen', cursive;
+
+}
